@@ -33,7 +33,7 @@ Professional Experience
 
 Skills
 ======
-**Languages**:French (Mother tongue), English (Fluent), German (Fluent), Arabic (Intermediate), Persian (Beginner)
+**Languages**: French (Mother tongue), English (Fluent), German (Fluent), Arabic (Intermediate), Persian (Beginner)
 
 
-**Computer science** R, Stata, Python, MS Suite, GitHub, Latex
+**Computer science**: R, Stata, Python, MS Suite, GitHub, Latex
