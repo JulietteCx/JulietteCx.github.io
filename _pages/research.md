@@ -6,11 +6,7 @@ author_profile: true
 ---
 
 
-Courses taught
+Work in Progress
 ======
-**Core Microeconomics**, MPhil in Economics programme (Graduate, first year), University of Oxford, *2022 - Present*
-
-**Introduction to Microeconomics**, Philosophy, Politics and Ecoonomics programme (Undergraduates) University of Oxford, *2022*
-
-**Introduction to Statistics**, Philosophy, Politics and Ecoonomics programme (Undergraduates), University of Oxford, *2022*
+**Climate-related extreme events, agricultural output and insurance: Evidence from South America**, with Jonas Nauerz & Svetlana Vtyurina
 
