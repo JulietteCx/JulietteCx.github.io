@@ -1,16 +1,10 @@
 ---
 layout: archive
 title: "Miscellaneous"
-permalink: /archive/
+permalink: /miscellaneous/
 author_profile: true
+redirect_from:
+  - /resume
 ---
 
-{% if site.talkmap_link == true %}
-
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
-
-{% endif %}
-
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
-{% endfor %}
+When I'm not working at the Bank of England or on my PhD, I have tons of hobbies. I love to knit, sew, garden, play the piano, cook (especially French pastries!). I want to use this page to share some of this and some tips I learned along the way. 
