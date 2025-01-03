@@ -1,13 +1,13 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Hello, and welcome to my website!"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-Hello, and welcome to my website!
+
 I'm a PhD candidate in Economics at the University of Oxford. I'm also currently doing an internship at the Bank of England. 
 I work on environmental economics, focusing on the effects of climate change on economic outcomes. I also like to think about the feasibility of climate policies, from a theoretical perspective. 
 
@@ -19,7 +19,14 @@ In the Summer 2024, I crossed the Atlantic and joined the International Monetary
 
 I am very fortunate to have been the recipient of the Margaret Thatcher scholarship, at Somerville College. 
 
-
+---
+permalink: /
+title: "About my research"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
+---
 
 
 
