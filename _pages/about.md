@@ -19,14 +19,6 @@ In the Summer 2024, I crossed the Atlantic and joined the International Monetary
 
 I am very fortunate to have been the recipient of the Margaret Thatcher scholarship, at Somerville College. 
 
----
-permalink: /
-title: "About my research"
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
----
 
 
 
