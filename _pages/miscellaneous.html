@@ -6,6 +6,12 @@ author_profile: true
 ---
 
 
+---
+layout: archive
+title: "Miscellaneous"
+permalink: /miscellaneous/
+author_profile: true
+---
 
 <!DOCTYPE html>
 <html lang="en">
@@ -19,7 +25,58 @@ author_profile: true
     <meta name="redirect_from" content="/miscellaneous">
     <title>Miscellaneous</title>
     <style>
-        /* Styling remains the same */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #555;
+            font-size: 24px;
+        }
+        h2 {
+            color: #444;
+            font-size: 20px;
+        }
+        ul {
+            list-style-type: disc;
+            margin: 10px 0 20px 20px;
+        }
+        .steps {
+            margin: 10px 0 20px 0;
+        }
+        .steps p {
+            margin: 5px 0;
+        }
+        .toggle-btn {
+            display: inline-block;
+            margin-bottom: 10px;
+            padding: 12px 20px;
+            background-color: #ff5722;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+        .toggle-btn:hover {
+            background-color: #e64a19;
+        }
+        .hidden {
+            display: none;
+        }
     </style>
     <script>
         function toggleContent(recipeId) {
@@ -30,20 +87,74 @@ author_profile: true
 </head>
 <body>
     <div class="container">
+        <p>When I'm not working at the Bank of England or on my PhD, I have tons of hobbies. I love to knit, sew, garden, play the piano, cook (especially French pastries!). I want to use this page to share some of this and some tips I learned along the way.</p>
+
+        <!-- Chocolate Cake Recipe -->
         <h1>The Ultimate Chocolate Cake Recipe</h1>
-        <button class="toggle-btn" onclick="toggleContent('recipe-content')">Toggle Recipe</button>
+        <p>I love chocolate cakes. I try to make one for each birthday. For a really long time (and I probably mean for the last ten years) I have been failing at making them as I wanted, i.e., not too sweet, crispy at the top and slightly melting at the bottom. After years of experimenting, here's the ultimate recipe:</p>
+        <button class="toggle-btn" onclick="toggleContent('recipe-chocolate')">Toggle Recipe</button>
 
-        <div id="recipe-content" class="hidden">
-            <!-- Recipe content here -->
+        <div id="recipe-chocolate" class="hidden">
+            <h2>Ingredients</h2>
+            <ul>
+                <li>200g chocolate (I take it with 70% cocoa)</li>
+                <li>100g butter</li>
+                <li>60g flour</li>
+                <li>3 eggs</li>
+                <li>10g of sugar (literally)</li>
+            </ul>
+
+            <h2>Steps</h2>
+            <div class="steps">
+                <p>1. Preheat the oven in fan mode at 180&deg;C.</p>
+                <p>2. Grease a plate (I have a 20cm-squared glass one).</p>
+                <p>3. Break the chocolate in tiny pieces.</p>
+                <p>4. Dice the butter in small cubes.</p>
+                <p>5. In a double boiler, melt the chocolate.</p>
+                <p>6. When the chocolate is melted, add small pieces of butter, one after another.</p>
+                <p>7. In the meantime, whip up the eggs (combined, yolk and white together) until the preparation triples in volume.</p>
+                <p>8. When all the butter is incorporated, add the flour to the chocolate preparation (<em>this is key!</em>).</p>
+                <p>9. Combine the two preparations by adding the chocolate mixture to the eggs. Mix very delicately until the preparation is homogenous. Avoid overmixing to prevent the eggs from collapsing.</p>
+                <p>10. Pour the preparation into the greased plate.</p>
+                <p>11. Bake for 20 minutes, or until you can slide a knife in and it comes out clean.</p>
+            </div>
+
+            <p>You're done!</p>
         </div>
 
-        <h1>A really cool (French) website for yarn</h1>
+        <hr>
 
-        <button class="toggle-btn" onclick="toggleContent('yarn-website')">Toggle Content</button>
+        <!-- New Recipe (Apple Pie) -->
+        <h1>New Title: Apple Pie Recipe</h1>
+        <p>This is my go-to apple pie recipe, which has been passed down for generations. I love the balance of tart apples and sweet filling. Here's how I make it:</p>
+        <button class="toggle-btn" onclick="toggleContent('recipe-apple')">Toggle Recipe</button>
 
-        <div id="yarn-website" class="hidden">
-            <!-- New content here -->
+        <div id="recipe-apple" class="hidden">
+            <h2>Ingredients</h2>
+            <ul>
+                <li>6-8 apples (Granny Smith or a mix of tart apples)</li>
+                <li>200g sugar</li>
+                <li>2 tbsp flour</li>
+                <li>1 tsp cinnamon</li>
+                <li>1/4 tsp nutmeg</li>
+                <li>1 tbsp lemon juice</li>
+                <li>1 tbsp butter</li>
+                <li>1 package of pie crusts (or homemade)</li>
+            </ul>
+
+            <h2>Steps</h2>
+            <div class="steps">
+                <p>1. Preheat the oven to 180°C (350°F).</p>
+                <p>2. Peel and slice the apples.</p>
+                <p>3. In a bowl, mix the apples with sugar, flour, cinnamon, nutmeg, and lemon juice.</p>
+                <p>4. Roll out the pie crust and line a pie dish.</p>
+                <p>5. Add the apple mixture to the pie crust, dotting with butter on top.</p>
+                <p>6. Cover with the second pie crust, sealing the edges and making a few slits for steam to escape.</p>
+                <p>7. Bake for 45-50 minutes, until the crust is golden and the filling is bubbling.</p>
+            </div>
+            <p>You're done! Enjoy your apple pie!</p>
         </div>
+
     </div>
 </body>
 </html>
