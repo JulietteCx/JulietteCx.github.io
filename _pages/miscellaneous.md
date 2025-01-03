@@ -24,12 +24,23 @@ After years of experimenting, here's the ultimate recipe:
 
 
 **Steps**
+Preheat the oven in fan mode at 180°C. 
+Grease a plate (I have a 20cm-squared glass one). 
 Break the chocolate in tiny pieces. 
 Dice the butter in small cubes. 
 In a double boiler, melt the chocolate. 
 When the chocolate is melted, add small pieces of butter, one after another. 
 In the meantime, whip up the eggs (combined, yolk and white together) until the preparation triples in volume. 
-When all the butter is incorporated, add the flour to the chocolate preparation (*this is key!). 
+When all the butter is incorporated, add the flour to the chocolate preparation (*this is key!*). 
+Combine the two preparations by adding the chocolate mixture to the eggs. Mix very delicately until the preparation is homogenous. It's important to avoid mixing too much, otherwise the eggs would fall over. 
+Then add the preparation to the plate
+Bake for 20 minutes, or until you can slide a knife and it comes out clean. 
+
+You're done! 
+
+
+
+
 
 
 
